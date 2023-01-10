@@ -1,0 +1,110 @@
+nav {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color:blanchedalmond;
+    border: 1px solid #e7e7e7;
+    padding: 0;
+    border-radius: 10px;
+    height: 50px;
+    font-family: sans-serif, Arial, Helvetica;
+  }
+
+  .active {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 737px;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #bbb;
+    background-color:rgb(179, 152, 111);
+  }
+
+  .nonactive {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #bbb;
+    background-color:blanchedalmond;
+  }
+
+
+  .left-column{
+    max-width: 300px;
+    max-height: 400px;
+
+    position: fixed;
+        left:70%;
+        top: 20%;
+  }
+
+  #text{
+    text-align: center;
+    color:black;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 20px;
+}
+
+#text_2{
+  font-size: 30px;
+  font-family:fantasy;
+}
+
+.right-column{
+    max-width: 35%;
+    max-height: 50%;
+    position: fixed;
+        left:8%;
+        top: 30%;
+}
+
+.social-links{
+    position: fixed;
+    left:20%;
+    top: 60%;
+}
+
+#cr{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color:blanchedalmond; 
+    text-align: center;             
+}
+
+table{
+    border:2px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    width:70%;
+    height:50%;
+    position: fixed;
+    top: 25%;
+    left:15%;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 20px;
+    
+    }
+    th,td{
+    border:1px solid black;
+    padding: 3 px;
+    font-size: large;
+    height:25%;
+    text-align: center;
+    }
+    th {
+    background-color:blanchedalmond ;
+    }
+
+    .hobby{
+        max-width: 50px;
+        max-height: 50px;
+    }
+ul{
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 20px;
+}
